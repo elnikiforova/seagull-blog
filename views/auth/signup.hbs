@@ -1,0 +1,24 @@
+<div class="create-blog content">
+
+  <form class="signup" action="/signup" method="POST">
+    <h3>ПРОШУ, ЗАПИШИТЕСЬ</h3>
+
+    <label for="username">Имя:</label>
+    <input type="text" id="username" name="username" />
+
+    <label for="bio">О себе:</label>
+    <input type="text" id="bio" name="bio" />
+
+    <label for="email"> <span class="hint">*</span> Почтовый адрес:</label>
+    <input type="text" id="email" name="email" required />
+    <div class="email error"></div>
+
+    <label for="password"> <span class="hint">*</span> Пароль:</label>
+    <input type="password" id="password" name="password" required />
+    <div class="password error"></div>
+    <p class="hint">* обязательные поля</p>
+
+    <button>Запишите меня!</button>
+  </form>
+
+</div>

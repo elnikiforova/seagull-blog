@@ -1,0 +1,39 @@
+{
+  "name": "core-express-blog-anonymous",
+  "version": "1.0.0",
+  "description": "## Общие сведения",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnikiforova/core-express-blog-anonymous.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elnikiforova/core-express-blog-anonymous/issues"
+  },
+  "homepage": "https://github.com/elnikiforova/core-express-blog-anonymous#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.12",
+    "morgan": "^1.10.0",
+    "validator": "^13.5.2"
+  }
+}

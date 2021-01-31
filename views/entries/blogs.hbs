@@ -1,0 +1,16 @@
+<div class="blogs content">
+
+
+  {{#each entries}}
+  <div class="blog-entry">
+
+    <h3 class="title">{{this.title}}</h3>
+    <p class="author"> {{this.author}} </p>
+    <p> {{this.blog}} </p>
+    <p class="blue"> #{{this.tagnames}} </p>
+
+  </div>
+  {{/each}}
+
+
+</div>
